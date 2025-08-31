@@ -1,0 +1,213 @@
+body {
+    background-color: rgb(124, 156, 160);
+}
+
+h1 {
+    color: pink;
+    font-family: Lobster;
+    text-align: center;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+}
+
+h2{
+    color: rgb(8, 43, 63);
+    font-family: Lobster;
+}
+
+p{
+    color:rgb(46, 67, 68) ;
+    font-family: Lobster;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Header_Logo{
+    display: flex; 
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-color: rgb(129, 2, 51);
+    padding: 5px 20px;
+}
+
+.Header_Complete{
+    display: block;
+    background-color: rgba(247, 202, 211, 0.808);
+    margin: o auto;
+    border-width: 3px;
+    border-color: rgb(129, 2, 51);
+    border-style: solid;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.Logo {
+    margin-left: auto;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li{
+    flex: 1;
+    text-align: center;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 20px 0px;
+    font-family:'Lucida Sans';
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: #a31b5f;
+    text-decoration: underline;
+}
+
+.All_Characters{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.Character_Sheet{
+    background-color: rgba(247, 202, 211, 0.9);
+    width: 500px;   
+    margin: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+
+.Character_Name{
+    color:cadetblue;
+    font-family: Lobster;
+    font-size: 34px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.Character_Info{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.Transformation_Sheet{
+    background-color: rgba(247, 202, 211, 0.9);
+    width: fit-content;   
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    background-color:  rgb(106, 138, 143);
+    left: 0; 
+    width: 100%;
+    padding: 20px;
+    bottom: 0;
+}
+
+#My_Picture{
+    display: block;
+    margin: 0 auto;
+    border: 5px solid pink;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.45);
+}
+
+.descriptive_text{
+    text-align: left;
+}
+
+.presentation{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px;
+    gap: 30px;
+    background-color: rgba(55, 83, 87, 0.178);
+}
+
+.Videos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.Vid_and_title{
+    background-color: rgba(63, 107, 109, 0.342);
+    width: fit-content;   
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+.form-container {
+    background-color: rgba(255, 240, 250, 0.8);
+    border: 2px solid brown;
+    border-radius: 15px;
+    padding: 25px;
+    width: 400px;
+    margin: 40px auto; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.form-container p,
+.form-container label {
+    display: block;
+    margin-top: 12px;
+    font-family: 'Lobster';
+    color:rgb(82, 112, 116);
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container input[type="email"],
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.form-container input[type="submit"] {
+    background-color: #b34da1;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background-color .2s ease, transform .15s ease;
+}
+
+.form-container input[type="submit"]:hover {
+  background-color: #8e2f79;
+  transform: scale(1.03);
+}

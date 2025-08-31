@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Winx-Script";
+    src: url(Fonts/Winx\ Script.ttf) format("truetype");
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: "Lobster";
+    src: url(Fonts/Lobster-Regular.ttf) format("truetype");
+    font-weight: lighter;
+    font-style: italic;
+}
